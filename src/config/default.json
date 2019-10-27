@@ -1,0 +1,19 @@
+{
+  "axios": {
+    "baseURL": "https://blockchain.info/q",
+    "timeout": 2000
+  },
+  "rpc": {
+    "btc": {
+      "rpcURL": "https://liquality.io/bitcointestnetrpc"
+    },
+    "eth": {
+      "rpcURL": "https://ropsten.infura.io/v3"
+    }
+  },
+  "contracts": {
+    "WBTCAtomicSwapBTC": "msfAhWpepup9VYoEezwSfPeiJdc6Z7n9N1",
+    "WBTCAtomicSwapETH": "0xe468B43d145B4e23dc1FFc21De51406735C5c1A5",
+    "WBTCToken": "0x340E7f50bd309faa2D9051B435f97F46b2708598"
+  }
+}
